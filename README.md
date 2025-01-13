@@ -3,4 +3,4 @@
 [![GitVersion Usage](https://github.com/lethisa/GitVersion/actions/workflows/version.yaml/badge.svg?branch=develop&event=push)](https://github.com/lethisa/GitVersion/actions/workflows/version.yaml)
 [![GitVersion Output in a Subsequent Job](https://github.com/lethisa/GitVersion/actions/workflows/output_cross_job.yaml/badge.svg)](https://github.com/lethisa/GitVersion/actions/workflows/output_cross_job.yaml)
 
-link for references https://gitversion.net
+Website https://gitversion.net
