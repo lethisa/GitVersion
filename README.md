@@ -6,4 +6,3 @@
 - Official Website https://gitversion.net
 - GitFlow
 - Configuration
-- Number
