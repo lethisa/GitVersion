@@ -9,13 +9,9 @@ on:
       - main
 
 jobs:
-  GitVersion:
-    runs-on: ubuntu-24.04
-
-jobs:
   GitVersion_v6_cross_job:
     name: GitVersion v6 (cross job)
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       branchName: ${{ steps.version_step.outputs.branchName }}
       fullSemVer: ${{ steps.version_step.outputs.fullSemVer }}
