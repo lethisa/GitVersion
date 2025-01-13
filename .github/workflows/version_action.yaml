@@ -1,0 +1,31 @@
+name: GitVersion Action
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  GitVersion_action:
+    runs-on: ubuntu-24.04
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Install GitVersion
+      uses: gittools/actions/gitversion/setup@v3.1.1
+      with:
+        versionSpec: '6.0.x'
+        includePrerelease: true
+
+    - name: Display GitVersion config
+      uses: gittools/actions/gitversion/command@v3.1.1
+      with:
+        useConfigFile: true
+        arguments: '/showConfig'
