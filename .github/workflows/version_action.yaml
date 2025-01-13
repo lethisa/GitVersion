@@ -28,4 +28,14 @@ jobs:
       uses: gittools/actions/gitversion/execute@v3.1.1
       with:
         useConfigFile: true
-        arguments: /showconfig
+        arguments: '/showconfig'
+
+    - name: Output the FullSemVer variable
+      uses: gittools/actions/gitversion/command@v3.1.1
+      with:
+        arguments: '/showvariable FullSemVer'
+
+    - name: Output the formatted version
+      uses: gittools/actions/gitversion/command@v3.1.1
+      with:
+        arguments: '/format {Major}.{Minor}' # any Output Variable can be used here
