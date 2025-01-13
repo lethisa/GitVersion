@@ -24,12 +24,6 @@ jobs:
         versionSpec: '6.0.x'
         includePrerelease: true
 
-    - name: Display GitVersion config
-      uses: gittools/actions/gitversion/execute@v3.1.1
-      with:
-        useConfigFile: true
-        arguments: '/showconfig'
-
     - name: Output the FullSemVer variable
       uses: gittools/actions/gitversion/command@v3.1.1
       with:
