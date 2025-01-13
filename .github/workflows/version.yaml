@@ -26,3 +26,8 @@ jobs:
 
     - name: Determine Version
       uses: gittools/actions/gitversion/execute@v3.1.1
+
+    - name: Determine Version with Config File
+      uses: gittools/actions/gitversion/execute@v3.1.1
+      with:
+        useConfigFile: true
