@@ -9,8 +9,8 @@ on:
       - main
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  GitVersion:
+    runs-on: ubuntu:24.04
 
     steps:
     - name: Checkout code
@@ -31,3 +31,9 @@ jobs:
       uses: gittools/actions/gitversion/execute@v3.1.1
       with:
         useConfigFile: true
+    
+    - name: Determine Version with Disabled Cache and Normalization
+      uses: gittools/actions/gitversion/execute@v3.1.1
+      with:
+        disableCache: true
+        disableNormalization: true
