@@ -4,4 +4,3 @@
 [![GitVersion Output in a Subsequent Job](https://github.com/lethisa/GitVersion/actions/workflows/output_cross_job.yaml/badge.svg)](https://github.com/lethisa/GitVersion/actions/workflows/output_cross_job.yaml)
 
 - Website https://gitversion.net
-- GitFlow
