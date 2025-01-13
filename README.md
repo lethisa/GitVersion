@@ -1,1 +1,2 @@
 # GitVersion
+[![GitVersion Action](https://github.com/lethisa/GitVersion/actions/workflows/version_action.yaml/badge.svg?branch=main&event=push)](https://github.com/lethisa/GitVersion/actions/workflows/version_action.yaml)
