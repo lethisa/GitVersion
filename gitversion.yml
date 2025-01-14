@@ -37,7 +37,6 @@ branches:
     is-main-branch: false
     pre-release-weight: 0
   main:
-    mode: ContinuousDeployment
     label: ''
     increment: Patch
     prevent-increment:
