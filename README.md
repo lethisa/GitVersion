@@ -7,3 +7,4 @@
 - GitFlow/v1
 - Continuous Deployment
 - Continuous Delivery
+- Continuous Integration
