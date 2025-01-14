@@ -6,3 +6,4 @@
 ## GitVersion
 - GitFlow/v1
 - Continuous Deployment
+- Continuous Delivery
