@@ -10,4 +10,4 @@
 - Continuous Deployment
 - Continuous Integration
 - Continuous Delivery
-- v110.1.0
+- v110.2.0
