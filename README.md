@@ -3,8 +3,9 @@
 [![GitVersion Usage](https://github.com/lethisa/GitVersion/actions/workflows/version.yaml/badge.svg?branch=develop&event=push)](https://github.com/lethisa/GitVersion/actions/workflows/version.yaml)
 [![GitVersion Output in a Subsequent Job](https://github.com/lethisa/GitVersion/actions/workflows/output_cross_job.yaml/badge.svg)](https://github.com/lethisa/GitVersion/actions/workflows/output_cross_job.yaml)
 
-## GitVersion
+## Features
+
 - GitFlow/v1
 - Continuous Deployment
-- Continuous Delivery
 - Continuous Integration
+- Continuous Delivery
