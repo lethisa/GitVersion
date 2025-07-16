@@ -10,4 +10,3 @@
 - Continuous Deployment
 - Continuous Integration
 - Continuous Delivery
-- GitVersion
