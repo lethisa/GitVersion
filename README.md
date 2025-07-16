@@ -10,4 +10,4 @@
 - Continuous Deployment
 - Continuous Integration
 - Continuous Delivery
-- v102.0.0
+- v102.0.0 minor
