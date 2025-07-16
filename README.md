@@ -10,3 +10,4 @@
 - Continuous Deployment
 - Continuous Integration
 - Continuous Delivery
+- v100.0.0
